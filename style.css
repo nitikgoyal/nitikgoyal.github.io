@@ -1,0 +1,55 @@
+div{
+    box-sizing: border-box;
+}
+.center
+{
+color: deepskyblue;
+font-size:40px;
+}
+.border
+{
+width: 100vw;
+height: 100vh;
+padding: 0vh 3vw 0vh 3vw;
+border: 10px solid deepskyblue;
+}
+*{padding:0;margin:0;box-sizing: border-box;}
+.navbar{
+width: 100%;
+margin-top:10px;
+float:left;
+}
+.navbar ul{
+width: 60%;
+list-style-type:none;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+#top{
+padding: 4px;
+height: 40px;
+width: 600px;
+}
+#top ul li a{
+text-decoration: none;
+display: block;
+}
+
+#top ul li a:hover{
+ background-color:lightblue;
+}
+.image .img-coffee
+{
+width: 60% ;
+height: 40%;
+float: left;
+margin-right: 25px;
+
+}
+
+.coffe
+{
+float : left;
+
+}
